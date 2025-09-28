@@ -6,7 +6,6 @@ A React application demonstrating SSL/TLS concepts and secure web development pr
 
 - Modern React application built with Vite
 - SSL/TLS demonstration
-- Docker containerization support
 - Automated GitHub Actions release workflow
 
 ## Getting Started
@@ -15,7 +14,6 @@ A React application demonstrating SSL/TLS concepts and secure web development pr
 
 - Node.js (LTS version)
 - npm or yarn
-- Docker (optional, for containerized development)
 
 ### Installation
 
@@ -42,26 +40,6 @@ The application will be available at `http://localhost:5173`
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
-- `npm run docker:build` - Build Docker image
-- `npm run docker:up` - Start Docker containers
-- `npm run docker:down` - Stop Docker containers
-- `npm run docker:logs` - View Docker logs
-
-## Docker Support
-
-The application includes Docker support for easy deployment:
-
-```bash
-# Build and start containers
-npm run docker:build
-npm run docker:up
-
-# View logs
-npm run docker:logs
-
-# Stop containers
-npm run docker:down
-```
 
 ## Release Process
 
